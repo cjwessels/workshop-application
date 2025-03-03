@@ -394,25 +394,25 @@ export default function JobCardsPage() {
                     <Textarea
                       value={instructions}
                       onChange={(e) => setInstructions(e.target.value)}
-                      placeholder='Enter detailed instructions'
+                      placeholder='Enter detailed instructions - Section 1'
                       className='min-h-[100px]'
                     />
                     <Textarea
                       value={instructions2}
                       onChange={(e) => setInstructions2(e.target.value)}
-                      placeholder='Enter detailed instructions'
+                      placeholder='Enter detailed instructions - Section 2'
                       className='min-h-[100px]'
                     />
                     <Textarea
                       value={instructions3}
                       onChange={(e) => setInstructions3(e.target.value)}
-                      placeholder='Enter detailed instructions'
+                      placeholder='Enter detailed instructions - Section 3'
                       className='min-h-[100px]'
                     />
                     <Textarea
                       value={instructions4}
                       onChange={(e) => setInstructions4(e.target.value)}
-                      placeholder='Enter detailed instructions'
+                      placeholder='Enter detailed instructions - Section 4'
                       className='min-h-[100px]'
                     />
                   </div>
